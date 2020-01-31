@@ -11,12 +11,20 @@ namespace UsingBlock
 
             try
             {
-                using (StreamReader sr = File.OpenText(path))
+
+                /// Instantiation of streaReader to a short form
+                ///using (StreamReader sr = File.OpenText(path)){
+                /// }
+
+                using (FileStream fs = new FileStream(path, FileMode.Open))
                 {
-                    while (!sr.EndOfStream)
+                    using (StreamReader sr = new StreamReader(fs))
                     {
-                        string line = sr.ReadLine();
-                        Console.WriteLine(line);
+                        while (!sr.EndOfStream)
+                        {
+                            string line = sr.ReadLine();
+                            Console.WriteLine(line);
+                        }
                     }
                 }
             }

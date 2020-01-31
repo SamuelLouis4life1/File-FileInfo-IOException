@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileFileInfo", "FileFileInfo\FileFileInfo.csproj", "{106532C2-320A-4E3C-8F67-7AAD0DDDD2AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamReaderAndFileStream", "StreamReaderAndFileStream\StreamReaderAndFileStream.csproj", "{AF7116FF-C5E5-4824-A65E-A9C10E4D3DF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamReaderAndFileStream", "StreamReaderAndFileStream\StreamReaderAndFileStream.csproj", "{AF7116FF-C5E5-4824-A65E-A9C10E4D3DF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingBlock", "UsingBlock\UsingBlock.csproj", "{24AC5296-FB36-45D9-B429-C3241E3F5A2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingBlock", "UsingBlock\UsingBlock.csproj", "{24AC5296-FB36-45D9-B429-C3241E3F5A2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriterFileStream", "StreamWriterFileStream\StreamWriterFileStream.csproj", "{72093393-7150-40BC-9F5E-515B2CD41E79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamWriterFileStream", "StreamWriterFileStream\StreamWriterFileStream.csproj", "{72093393-7150-40BC-9F5E-515B2CD41E79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryDirectoryInfo", "DirectoryDirectoryInfo\DirectoryDirectoryInfo.csproj", "{49991B28-931E-4345-A48A-F7C7506D63D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{72093393-7150-40BC-9F5E-515B2CD41E79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72093393-7150-40BC-9F5E-515B2CD41E79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72093393-7150-40BC-9F5E-515B2CD41E79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49991B28-931E-4345-A48A-F7C7506D63D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49991B28-931E-4345-A48A-F7C7506D63D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49991B28-931E-4345-A48A-F7C7506D63D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49991B28-931E-4345-A48A-F7C7506D63D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -47,8 +47,6 @@ namespace PathDirectoryFileExercices
                 Console.WriteLine("An error occured !");
                 Console.WriteLine(e.Message);
             }
-
-            Console.ReadLine();
         }
     }
 }
